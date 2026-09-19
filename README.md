@@ -3,10 +3,10 @@
 Dashboard financeiro familiar que lê extratos de bancos holandeses (ING e bunq),
 categoriza os lançamentos sozinho e transforma isso em análise acionável.
 
-**[▶ Testar a demonstração](https://SEU-USUARIO.github.io/fincontrol/)** — clique em
+**[▶ Testar a demonstração](https://caiocingles.github.io/fincontrol/)** — clique em
 *Entrar no modo demonstração*, sem cadastro. Os dados são fictícios.
 
-![Relatórios](docs/relatorios.png)
+![Relatórios](relatorios.png)
 
 ---
 
@@ -56,12 +56,12 @@ antes de qualquer restauração e opção de desfazer.
 
 | | |
 |---|---|
-| ![Orçamentos](docs/orcamentos.png) | ![Assinaturas](docs/assinaturas.png) |
+| ![Orçamentos](orcamentos.png) | ![Assinaturas](assinaturas.png) |
 | **Orçamentos** — teto por categoria, com sugestão baseada na sua própria média | **Assinaturas** — cobranças recorrentes detectadas nos extratos |
-| ![Análise](docs/analise.png) | ![Backup](docs/backup.png) |
+| ![Análise](analise.png) | ![Backup](backup.png) |
 | **Análise Inteligente** — achados calculados, cada um com o número que o sustenta | **Backup** — integridade verificável e restauração reversível |
 
-<img src="docs/mobile.png" width="300" alt="Versão mobile">
+<img src="mobile.png" width="300" alt="Versão mobile">
 
 ## Decisões técnicas
 
@@ -101,7 +101,7 @@ avisam, na própria tela, que organizam mas não protegem.
 ## Como rodar
 
 ```bash
-git clone https://github.com/SEU-USUARIO/fincontrol.git
+git clone https://github.com/caiocingles/fincontrol.git
 cd fincontrol
 # abra index.html no navegador — é só isso
 ```
