@@ -1,0 +1,15 @@
+*.csv
+*.xlsx
+*.xls
+*.ofx
+*.financebackup
+extratos/
+fincontrol-backup-*.json
+fincontrol-transacoes-*.csv
+.env
+.env.*
+*.key
+.DS_Store
+Thumbs.db
+desktop.ini
+node_modules/
